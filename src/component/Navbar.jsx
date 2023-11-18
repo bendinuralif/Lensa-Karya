@@ -25,40 +25,16 @@ const Navbar = () => {
           <img src={Logo} alt='' className='w-10 ml-[-5px]' />
         </div>
         <div className='link flex gap-[77px] text-[16px]'>
-          <Link
-            to='/'
-            onClick={() => handleLinkClick('Beranda')}
-            className={`${
-              activeLink === 'Beranda' ? 'text-[#EC0000] font-bold' : ''
-            } text-[16px]`}
-          >
+          <Link to='/' onClick={() => handleLinkClick('Beranda')} className={`${activeLink === 'Beranda' ? 'text-[#EC0000] font-bold' : ''} text-[16px]`}>
             Beranda
           </Link>
-          <Link
-            to='/aboutus'
-            onClick={() => handleLinkClick('Tentang Kami')}
-            className={`${
-              activeLink === 'Tentang Kami' ? 'text-[#EC0000] font-bold' : ''
-            } text-[16px]`}
-          >
+          <Link to='/aboutus' onClick={() => handleLinkClick('Tentang Kami')} className={`${activeLink === 'Tentang Kami' ? 'text-[#EC0000] font-bold' : ''} text-[16px]`}>
             Tentang Kami
           </Link>
-          <Link
-            to='/layanan'
-            onClick={() => handleLinkClick('Layanan')}
-            className={`${
-              activeLink === 'Layanan' ? 'text-[#EC0000] font-bold' : ''
-            } text-[16px]`}
-          >
+          <Link to='/layanan' onClick={() => handleLinkClick('Layanan')} className={`${activeLink === 'Layanan' ? 'text-[#EC0000] font-bold' : ''} text-[16px]`}>
             Layanan
           </Link>
-          <Link
-            to='/portofolio'
-            onClick={() => handleLinkClick('Portofolio')}
-            className={`${
-              activeLink === 'Portofolio' ? 'text-[#EC0000] font-bold' : ''
-            } text-[16px]`}
-          >
+          <Link to='/portofolio' onClick={() => handleLinkClick('Portofolio')} className={`${activeLink === 'Portofolio' ? 'text-[#EC0000] font-bold' : ''} text-[16px]`}>
             Portofolio
           </Link>
         </div>
