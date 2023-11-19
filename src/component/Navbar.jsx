@@ -65,7 +65,12 @@ const Navbar = () => {
         <div className="hidden md:flex items-center">
           <div className="button text-[#EC0000] font-medium flex items-center">
             <img src={Icon} alt="" className="w-[17px] mr-2" />
-            <p>SayaPhotographer</p>
+            <Link
+              to="/login"
+              className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}
+            >
+              SayaPhotographer
+            </Link>
           </div>
         </div>
       </div>
