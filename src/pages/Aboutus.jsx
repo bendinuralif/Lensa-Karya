@@ -7,7 +7,7 @@ const Aboutus = () => {
     <Layout>
       <div>
         <div className='text-center font-inter text-4xl font-bold pt-10 mt-[256px] text-[#EC0000]'>
-          ABOUT
+          ABOUT <span className='text-[#000]'>.</span>
         </div>
         <p className='text-center font-inter text-2xl font-normal p-4 mr-11 ml-11'>
           Lensa Karya menyediakan fotografer dan videografer profesional untuk mengabadikan momen berharga dalam hidup Anda
@@ -35,10 +35,7 @@ const Aboutus = () => {
         </div>
         <div className='ml-11 mr-11'>
         <div className='font-inter text-4xl font-bold pl-4 '>
-          GABUNG BERSAMA 
-          <div className='text-[#EC0000]'>
-            KAMI
-          </div>
+          GABUNG BERSAMA  <span className='text-[#EC0000]'>KAMI</span>
         </div>
           <p className='font-inter text-xl font-normal p-4'>
           "Bergabunglah dengan Lensa Karya, sampaikan kisah unik Anda melalui lensa kami. Dukungan pertumbuhan dan ciptakan seni inspiratif bersama."
