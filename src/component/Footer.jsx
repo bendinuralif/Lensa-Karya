@@ -9,14 +9,14 @@ const Footer = () => {
         <div class='md:flex md:justify-between'>
           <div class='mb-6 md:mb-0'>
             <a href='#' class='flex items-center'>
-              <span class='self-center text-2xl font-semibold whitespace-nowrap dark:text-white'>Lensa Karya</span>
+              <span class='self-center text-2xl font-semibold whitespace-nowrap text-white'>Lensa Karya</span>
               <img src={logoWhite} class='h-8 me-3' alt='FlowBite Logo' />
             </a>
             <p className='text-white w-[269px]'>Membantu dalam menemukan jasa dalam mengabadikan momen anda yang indah.</p>
           </div>
           <div class='grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4'>
             <div>
-              <h2 class='mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white'>Navigasi</h2>
+              <h2 class='mb-6 text-sm font-semibold text-white uppercase dark:text-white'>Navigasi</h2>
               <ul class='text-gray-500 dark:text-gray-400 font-medium'>
                 <li class='mb-4'>
                   <a href='/' class='hover:underline'>
@@ -41,7 +41,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 class='mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white'>Tentang Kami</h2>
+              <h2 class='mb-6 text-sm font-semibold text-white uppercase dark:text-white'>Tentang Kami</h2>
               <ul class='text-gray-500 dark:text-gray-400 font-medium'>
                 <li class='mb-4'>
                   <a href='#' class='hover:underline '>
@@ -56,7 +56,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 class='mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white'>Layanan</h2>
+              <h2 class='mb-6 text-sm font-semibold text-white uppercase dark:text-white'>Layanan</h2>
               <ul class='text-gray-500 dark:text-gray-400 font-medium'>
                 <li class='mb-4'>
                   <a href='#' class='hover:underline'>
@@ -76,7 +76,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 class='mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white'>Portofolio</h2>
+              <h2 class='mb-6 text-sm font-semibold text-white uppercase dark:text-white'>Portofolio</h2>
               <ul class='text-gray-500 dark:text-gray-400 font-medium'>
                 <li class='mb-4'>
                   <a href='#' class='hover:underline'>

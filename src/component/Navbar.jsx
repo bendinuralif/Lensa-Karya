@@ -26,6 +26,7 @@ const Navbar = () => {
             aria-controls='navbar-mobile'
             aria-expanded={isMenuOpen ? 'true' : 'false'}
           >
+<<<<<<< HEAD
             <span className='sr-only'>Open main menu</span>
             <svg className='w-5 h-5' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 17 14'>
               <path stroke='#EC0000' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M1 1h15M1 7h15M1 13h15' />
@@ -47,6 +48,95 @@ const Navbar = () => {
             <Link to='/portofolio' className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
               Portofolio
             </Link>
+=======
+            <span className="sr-only">{isMenuOpen ? 'Close menu' : 'Open main menu'}</span>
+            {isMenuOpen ? (
+              <svg
+                className="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            ) : (
+              <svg
+                className="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              ><div className="md:hidden absolute top-4 right-4">
+              <button
+                type="button"
+                className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-[#EC0000] rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                onClick={handleMenuToggle}
+                aria-controls="navbar-mobile"
+                aria-expanded={isMenuOpen ? 'true' : 'false'}
+              >
+                <span className="sr-only">{isMenuOpen ? 'Close menu' : 'Open main menu'}</span>
+                {isMenuOpen ? (
+                  <svg
+                    className="w-5 h-5"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                ) : (
+                  <svg
+                    className="w-5 h-5"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 17 14"
+                  >
+                    <path stroke="#EC0000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
+                  </svg>
+                )}
+              </button>
+            </div>
+            
+                <path stroke="#EC0000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
+              </svg>
+            )}
+          </button>
+        </div>
+
+        <div className={`md:flex md:w-auto ${isMenuOpen ? 'block' : 'hidden'}`} id="navbar-mobile">
+          <div className="md:flex-grow">
+            <div className="flex flex-col md:flex-row md:space-x-8">
+              <Link
+                to="/"
+                className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}
+              >
+                Beranda
+              </Link>
+              <Link
+                to="/aboutus"
+                className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}
+              >
+                Tentang Kami
+              </Link>
+              <Link
+                to="/layanan"
+                className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}
+              >
+                Layanan
+              </Link>
+              <Link
+                to="/portofolio"
+                className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}
+              >
+                Portofolio
+              </Link>
+            </div>
+>>>>>>> bendi
           </div>
         </div>
 
