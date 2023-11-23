@@ -25,7 +25,6 @@ function App() {
         <Route path='/verifikasi' element={<Verifikasi />} />
         <Route path='/katasandibaru' element={<Katasandibaru />} />
         <Route path='/daftar' element={<Daftar />} />
-        
       </Routes>
     </BrowserRouter>
   );
