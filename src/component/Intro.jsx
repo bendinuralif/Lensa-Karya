@@ -7,7 +7,7 @@ import Icon4 from '../assets/images/icon/keindahan.png';
 const Intro = () => {
   return (
     <>
-      <div className='justify-center items-center flex gap-[30px] pb-[165px]'>
+      <div className='justify-center items-center flex gap-[30px] pb-[165px] mt-36'>
         <div className='w-60 h-60 bg-white border-2 border-[red] flex flex-col justify-center gap-5 items-center text-center'>
           <img src={Icon} alt='' className='w-8' />
           <p className='text-base font-bold'>Filosofi</p>
