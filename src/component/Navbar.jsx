@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='bg-white fixed w-full z-50 top-0 border-b border-gray-200'>
+    <nav className='bg-white fixed w-full z-20 top-0 border-b border-gray-200'>
       <div className='max-w-screen-xl flex items-center justify-between mx-auto p-4'>
         <Link to='/' className='flex items-center space-x-3'>
           <img src={Logo} alt='LenKa Logo' className='h-8' />
@@ -35,16 +35,16 @@ const Navbar = () => {
 
         <div className={`md:flex md:w-auto ${isMenuOpen ? 'block' : 'hidden'}`} id='navbar-mobile'>
           <div className='flex flex-col md:flex-row md:space-x-8'>
-            <Link to='/' className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
+            <Link to='/' className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0 font-bold`}>
               Beranda
             </Link>
-            <Link to='/aboutus' className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
+            <Link to='/aboutus' className={`block py-2 px-3] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
               Tentang Kami
             </Link>
-            <Link to='/layanan' className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
+            <Link to='/layanan' className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
               Layanan
             </Link>
-            <Link to='/portofolio' className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
+            <Link to='/portofolio' className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
               Portofolio
             </Link>
           </div>
@@ -53,7 +53,9 @@ const Navbar = () => {
         <div className='hidden md:flex items-center'>
           <div className='button text-[#EC0000] font-medium flex items-center'>
             <img src={Icon} alt='' className='w-[17px] mr-2' />
-            <p>SayaPhotographer</p>
+            <Link to='/login' className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
+              SayaPhotographer
+            </Link>
           </div>
         </div>
       </div>
