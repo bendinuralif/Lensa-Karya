@@ -13,7 +13,7 @@ const Photographer = () => (
         <p className='pt-6 pb-4 text-xl font-bold'>
           Rekomendasi <span className='text-red-600'>Pilihan</span>
         </p>
-        <p>Selengkapnya >></p>
+        <p>Selengkapnya</p>
       </div>
       <div className='flex flex-row justify-center w-full mx-auto gap-8'>
         <div

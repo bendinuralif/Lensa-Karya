@@ -7,7 +7,6 @@ import Photographer from '../component/Photographer';
 import Kategori from '../component/Kategori';
 import Images from '../assets/images/carousel1.png';
 import Images2 from '../assets/images/carousel2.png';
-import Pgcamera from '../component/Pgcamera';
 
 const Home = () => {
   return (

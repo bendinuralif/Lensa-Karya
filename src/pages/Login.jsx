@@ -1,10 +1,10 @@
 import React from 'react'
-import Layout from './Layout'
 import '../assets/css/login.css'
+import Layoutlogin from './Layoutlogin'
 
 const Login = () => {
   return (
-    <Layout>
+    <Layoutlogin>
         <div className="page">
       <div className="cover">
             <h3>MASUK</h3>
@@ -22,7 +22,7 @@ const Login = () => {
             </div> 
         </div>
         </div>
-    </Layout>
+    </Layoutlogin>
   )
 }
 
