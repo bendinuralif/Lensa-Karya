@@ -6,14 +6,21 @@ const CarouselItem = () => {
   return (
     <>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div className='h-56 sm:h-64 xl:h-80 2xl:h-96'>
         <Carousel>
           <img src={Images} alt='...' />
+=======
+      <div className='h-56 sm:h-64 xl:h-80 2xl:h-96 mb-8'>
+        <Carousel style={{ width: '100%', height: '160%' }}>
+          <img src={Images} alt='...' className='object-cover w-full h-full' />
+          <img src={Images2} alt='...' className='object-cover w-full h-full' />
+          {/* <img src={Images} alt='...' />
+>>>>>>> 82cdd2bb8e56a69c252e3158b1e7e0f87018ecd0
           <img src={Images2} alt='...' />
-          <img src={Images} alt='...' />
-          <img src={Images2} alt='...' />
-          <img src={Images} alt='...' />
+          <img src={Images} alt='...' /> */}
         </Carousel>
+<<<<<<< HEAD
 =======
       <div>
         <div id='controls-carousel' className='relative w-full mt-11' data-carousel='static'>
@@ -47,6 +54,8 @@ const CarouselItem = () => {
           </button>
         </div>
 >>>>>>> bendi
+=======
+>>>>>>> 82cdd2bb8e56a69c252e3158b1e7e0f87018ecd0
       </div>
     </>
   );

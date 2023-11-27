@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from './Layout';
-import Images from '../assets/images/andre.png'
+import Images1 from '../assets/images/Images-about-1.png'
+import Images2 from '../assets/images/Images-about-2.png'
 
 const Aboutus = () => {
   return (
@@ -13,7 +14,7 @@ const Aboutus = () => {
           Lensa Karya menyediakan fotografer dan videografer profesional untuk mengabadikan momen berharga dalam hidup Anda
         </p>
       </div>
-      <div className='flex m-[188px] mt-[600px]'>
+      <div className='flex m-[188px] mt-[300px]'>
         <div>
           <div className='font-inter text-4xl font-bold pt-10 pl-4'>
             MENGAPA HARUS
@@ -26,12 +27,12 @@ const Aboutus = () => {
           </p>
         </div>
         <div className='rounded-lg bg-white p-4 shadow-md mr-[]'>
-          <img src={Images} alt=""  />
+          <img src={Images1} alt=""  />
         </div>
       </div>
-      <div className='flex '>
+      <div className='flex  mt-[300px] mb-[200px]'>
         <div className='rounded-lg bg-white p-4 shadow-md ml-[190px]'>
-          <img src={Images} alt="" />
+          <img src={Images2} alt="" />
         </div>
         <div className='ml-11 mr-11'>
         <div className='font-inter text-4xl font-bold pl-4 '>

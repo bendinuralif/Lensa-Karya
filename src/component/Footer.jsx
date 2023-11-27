@@ -16,7 +16,11 @@ const Footer = () => {
           </div>
           <div class='grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4'>
             <div>
+<<<<<<< HEAD
               <h2 class='mb-6 text-sm font-semibold text-white uppercase dark:text-white'>Navigasi</h2>
+=======
+              <h2 class='mb-6 text-sm font-semibold text-gray-900 uppercase text-white'>Navigasi</h2>
+>>>>>>> 82cdd2bb8e56a69c252e3158b1e7e0f87018ecd0
               <ul class='text-gray-500 dark:text-gray-400 font-medium'>
                 <li class='mb-4'>
                   <a href='/' class='hover:underline'>
@@ -41,7 +45,11 @@ const Footer = () => {
               </ul>
             </div>
             <div>
+<<<<<<< HEAD
               <h2 class='mb-6 text-sm font-semibold text-white uppercase dark:text-white'>Tentang Kami</h2>
+=======
+              <h2 class='mb-6 text-sm font-semibold text-gray-900 uppercase text-white'>Tentang Kami</h2>
+>>>>>>> 82cdd2bb8e56a69c252e3158b1e7e0f87018ecd0
               <ul class='text-gray-500 dark:text-gray-400 font-medium'>
                 <li class='mb-4'>
                   <a href='#' class='hover:underline '>
@@ -56,7 +64,11 @@ const Footer = () => {
               </ul>
             </div>
             <div>
+<<<<<<< HEAD
               <h2 class='mb-6 text-sm font-semibold text-white uppercase dark:text-white'>Layanan</h2>
+=======
+              <h2 class='mb-6 text-sm font-semibold text-gray-900 uppercase text-white'>Layanan</h2>
+>>>>>>> 82cdd2bb8e56a69c252e3158b1e7e0f87018ecd0
               <ul class='text-gray-500 dark:text-gray-400 font-medium'>
                 <li class='mb-4'>
                   <a href='#' class='hover:underline'>
@@ -76,7 +88,11 @@ const Footer = () => {
               </ul>
             </div>
             <div>
+<<<<<<< HEAD
               <h2 class='mb-6 text-sm font-semibold text-white uppercase dark:text-white'>Portofolio</h2>
+=======
+              <h2 class='mb-6 text-sm font-semibold text-gray-900 uppercase text-white'>Portofolio</h2>
+>>>>>>> 82cdd2bb8e56a69c252e3158b1e7e0f87018ecd0
               <ul class='text-gray-500 dark:text-gray-400 font-medium'>
                 <li class='mb-4'>
                   <a href='#' class='hover:underline'>
