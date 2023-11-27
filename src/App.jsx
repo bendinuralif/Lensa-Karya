@@ -13,6 +13,7 @@ import Katasandibaru from './pages/Katasandibaru';
 import Daftar from './pages/Daftar';
 import Navbarlogin from './component/Navbarlogin';
 import Layoutlogin from './pages/Layoutlogin';
+import Profile from './pages/Profile';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/daftar' element={<Daftar />} />
         <Route path='/navbarlogin' element={<Navbarlogin />} />
         <Route path='/layoutlogin' element={<Layoutlogin />} />
+        <Route path='/profile' element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );

@@ -7,7 +7,7 @@ const Daftar = () => {
     <Layoutlogin>
         <div className="page">
       <div className="cover">
-            <h3>LUPA SANDI</h3>
+            <h3>DAFTAR</h3>
             <input type="text" placeholder="Nama Pengguna" />
             <input type="text" placeholder="Email" />
             <input type="text" placeholder="Kata Sandi" />

@@ -11,7 +11,7 @@ const Login = () => {
             <input type="text" placeholder="Email" />
             <input type="password" placeholder="Kata Sandi" />
             <p className="textlupasandi"><a href="Lupasandi">Lupa Kata Sandi?</a></p> 
-            <div className="login-btn"><a href="#">Masuk</a></div>
+            <div className="login-btn"><a href="/Profile">Masuk</a></div>
             <p className="textdaftar">Belum punya akun? <a href="Daftar"><b>Daftar</b></a></p> 
             <p className="text">Atau</p>
 
