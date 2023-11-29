@@ -5,6 +5,7 @@ import Images3 from '../assets/images/andre3.png';
 import Images4 from '../assets/images/andre4.png';
 import { IoLocationSharp } from 'react-icons/io5';
 import { IoMdPricetag } from 'react-icons/io';
+import { FaAngleDoubleRight } from 'react-icons/fa';
 
 const Photographer = () => (
   <>
@@ -13,7 +14,9 @@ const Photographer = () => (
         <p className='pt-6 pb-4 text-xl font-bold'>
           Rekomendasi <span className='text-red-600'>Pilihan</span>
         </p>
-        <p>Selengkapnya >></p>
+        <p>
+          Selengkapnya <FaAngleDoubleRight className='inline-block me-5' />
+        </p>
       </div>
       <div className='flex flex-row justify-center w-full mx-auto gap-8'>
         <div
