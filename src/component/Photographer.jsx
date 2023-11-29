@@ -37,7 +37,7 @@ const Photographer = () => (
           </div>
           <div className='w-full mx-16 flex justify-center'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
-              Default
+              Detail
             </button>
           </div>
         </div>
@@ -59,7 +59,7 @@ const Photographer = () => (
           </div>
           <div className='w-full mx-16 flex justify-center'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
-              Default
+              Detail
             </button>
           </div>
         </div>
@@ -81,7 +81,7 @@ const Photographer = () => (
           </div>
           <div className='w-full mx-16 flex justify-center'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
-              Default
+              Detail
             </button>
           </div>
         </div>
@@ -103,7 +103,7 @@ const Photographer = () => (
           </div>
           <div className='w-full mx-16 flex justify-center'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
-              Default
+              Detail
             </button>
           </div>
         </div>
@@ -111,7 +111,7 @@ const Photographer = () => (
           <img src={Images2} alt='' />
           <div className='px-8'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-2xl text-sm px-5 py-2.5 me-2 mb-2 focus:outline-non'>
-              Default
+              Detail
             </button>
           </div>
         </div>
