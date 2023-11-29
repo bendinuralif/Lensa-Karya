@@ -6,6 +6,7 @@ import Aboutus from './pages/Aboutus';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layanan from './pages/Layanan';
 import Portfolio from './pages/Portofolio';
+import Portowedd from './pages/Portowedd';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/aboutus' element={<Aboutus />} />
         <Route path='/layanan' element={<Layanan />} />
         <Route path='/portofolio' element={<Portfolio />} />
+        <Route path='/portowedd' element={<Portowedd/>}/>
       </Routes>
     </BrowserRouter>
   );
