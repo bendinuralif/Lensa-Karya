@@ -8,7 +8,7 @@ const CarouselItem = () => {
     <>
       <div className='absolute top-0 translate-x-1/2 left-0 h-fit w-1/2 mx-auto z-20 mt-28 flex justify-center flex-col items-center gap-6 pt-5'>
         <div className='flex items-baseline'>
-          <h2 className='text-3xl font-bold text-center'>LensaKarya</h2>
+          <h2 className='text-3xl font-bold text-center text-red-600'>LensaKarya</h2>
           <img src={Logo} alt='LenKa Logo' className='h-12 text-red-600' />
         </div>
         <p className='text-center text-lg'>
