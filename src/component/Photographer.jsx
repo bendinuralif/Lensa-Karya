@@ -9,7 +9,7 @@ import { FaAngleDoubleRight } from 'react-icons/fa';
 
 const Photographer = () => (
   <>
-    <div className='pb-[65px]'>
+    <div className='pb-[65px] pt-20'>
       <div className='flex justify-between items-center px-8'>
         <p className='pt-6 pb-4 text-xl font-bold'>
           Rekomendasi <span className='text-red-600'>Pilihan</span>
