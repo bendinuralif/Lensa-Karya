@@ -34,3 +34,10 @@ function App() {
         <Route path='/layoutlogin' element={<Layoutlogin />} />
         <Route path='/profile' element={<Profile />} />
         <Route path='/portowedd' element={<Portowedd/>}/>
+
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
