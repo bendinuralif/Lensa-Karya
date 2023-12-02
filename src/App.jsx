@@ -14,6 +14,8 @@ import Daftar from './pages/Daftar';
 import Navbarlogin from './component/Navbarlogin';
 import Layoutlogin from './pages/Layoutlogin';
 import Profile from './pages/Profile';
+import Portowedd from './pages/Portowedd';
+
 
 function App() {
   return (
@@ -31,9 +33,4 @@ function App() {
         <Route path='/navbarlogin' element={<Navbarlogin />} />
         <Route path='/layoutlogin' element={<Layoutlogin />} />
         <Route path='/profile' element={<Profile />} />
-      </Routes>
-    </BrowserRouter>
-  );
-}
-
-export default App;
+        <Route path='/portowedd' element={<Portowedd/>}/>
