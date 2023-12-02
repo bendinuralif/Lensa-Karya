@@ -11,8 +11,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='bg-white fixed w-full z-20 top-0 border-b border-gray-200 shadow-md'>
-      <div className='max-w-screen-xl flex items-center justify-between mx-auto p-4'>
+    <nav className='bg-white fixed w-full z-50 top-0 border-b border-gray-200'>
+      <div className='max-w-screen-xl flex place-items-end items-center justify-between mx-auto p-4'>
         <Link to='/' className='flex items-center space-x-3'>
           <img src={Logo} alt='LenKa Logo' className='h-8' />
           <span className='self-center text-2xl font-semibold whitespace-nowrap text-[#EC0000]'>LenKa</span>
