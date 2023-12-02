@@ -1,6 +1,6 @@
 import Layout from './Layout';
 import { Link } from 'react-router-dom';
-import Wedding from '../assets/images/portofolio/wedding.png';
+import Wedding from '../assets/images/portofolio/wedding.png'
 import Event from '../assets/images/portofolio/event.png'
 import PreWedding from '../assets/images/portofolio/pre-wed.png'
 import Potrait from '../assets/images/portofolio/potrait.png'
@@ -8,6 +8,7 @@ import Family from '../assets/images/portofolio/family.png'
 import Food from '../assets/images/portofolio/food.png'
 import Product from '../assets/images/portofolio/product.png'
 import Newborn from '../assets/images/portofolio/newborn.png'
+
 
 const Portofolio = () => {
   return (
@@ -19,7 +20,7 @@ const Portofolio = () => {
         <p className='ml-[41px] mt-[1px] text-xl font-semibold text-[rgb(236,0,0)] '>Kategori</p>
         <div className='relative flex justify-items-stretch ml-[20px] mr-[37px] mt-2 '>
 
-        <Link to="">
+        <Link to="/portowedd">
             <img src={Wedding} alt="Wedding Photography" className="box-content rounded-2xl h-[250px] w-[250px] mx-[20px]" />
           </Link>
 
