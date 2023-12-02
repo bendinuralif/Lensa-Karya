@@ -26,7 +26,7 @@ const CarouselItem = () => {
         <h2 className='text-4xl font-bold'>Lensa Karya</h2>
       </div> */}
       <div className='h-56 sm:h-64 xl:h-80 2xl:h-96 mb-8'>
-        <Carousel style={{ width: '100%', height: '160%' }}>
+        <Carousel style={{ width: '100%', height: '191%' }}>
           <img src={Images} alt='...' className='object-cover w-full h-full' />
           <img src={Images2} alt='...' className='object-cover w-full h-full' />
         </Carousel>

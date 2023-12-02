@@ -1,17 +1,17 @@
 import React from 'react'
-import Layout from './Layout'
 import '../assets/css/login.css'
+import Layoutlogin from './Layoutlogin'
 
 const Login = () => {
   return (
-    <Layout>
+    <Layoutlogin>
         <div className="page">
       <div className="cover">
             <h3>MASUK</h3>
             <input type="text" placeholder="Email" />
             <input type="password" placeholder="Kata Sandi" />
             <p className="textlupasandi"><a href="Lupasandi">Lupa Kata Sandi?</a></p> 
-            <div className="login-btn"><a href="#">Masuk</a></div>
+            <div className="login-btn"><a href="/Profile">Masuk</a></div>
             <p className="textdaftar">Belum punya akun? <a href="Daftar"><b>Daftar</b></a></p> 
             <p className="text">Atau</p>
 
@@ -22,7 +22,7 @@ const Login = () => {
             </div> 
         </div>
         </div>
-    </Layout>
+    </Layoutlogin>
   )
 }
 
