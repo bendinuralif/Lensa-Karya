@@ -7,13 +7,13 @@ const CarouselItem = () => {
   return (
     <>
       <div className='absolute top-0 translate-x-1/2 left-0 h-fit w-1/2 mx-auto z-20 mt-28 flex justify-center flex-col items-center gap-6 pt-5'>
-        <div className='flex items-baseline'>
+        <div className='flex items-baseline mt-20'>
           <h2 className='text-3xl font-bold text-center text-red-600'>LensaKarya</h2>
           <img src={Logo} alt='LenKa Logo' className='h-12 text-red-600' />
         </div>
-        <p className='text-center text-lg'>
-          Abadikan moment berhargamu, tuk <br />
-          kenangan yang indah kan diingat.
+        <p className='text-center text-lg mt-5 mb-10'>
+          Abadikan Moment Berhargamu, <br />
+          Untuk Kenangan Indah Kan di Ingat.
         </p>
         <button
           type='button'
