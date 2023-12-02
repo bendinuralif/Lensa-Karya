@@ -19,7 +19,7 @@
 .box2 {
   flex: 2;
   padding: 30px 40px;
-  height: 860px;
+  height: 1000px;
   border-radius: 5px;
   margin: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
@@ -77,17 +77,17 @@
 
 .portofoto{
   text-align: left;
-  height: 400px;
   color: #EC0000 ;
   display: flex;
+
   justify-content: space-between;
 }
 
 .portovideo {
   text-align: left;
   color: #EC0000;
-  height: 400px;
   display: flex;
+  margin-top: 25px;
   justify-content: space-between;
 }
 
