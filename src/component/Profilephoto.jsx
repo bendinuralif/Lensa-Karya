@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
 import Images from '../assets/images/andre.png';
-import Event from '../assets/images/portofolio/event.png'
-import PreWedding from '../assets/images/portofolio/pre-wed.png'
-import Potrait from '../assets/images/portofolio/potrait.png'
-import Family from '../assets/images/portofolio/family.png'
-import Food from '../assets/images/portofolio/food.png'
-import Product from '../assets/images/portofolio/product.png'
-import Newborn from '../assets/images/portofolio/newborn.png'
+import Photo1 from '../assets/images/Photo1.png';
+import Photo2 from '../assets/images/Photo2.png'
+import Photo3 from '../assets/images/Photo3.png'
+import Photo4 from '../assets/images/Photo4.png'
+import Video1 from '../assets/images/Video1.png'
+import Video2 from '../assets/images/Video2.png'
+import Video3 from '../assets/images/Video3.png'
+import Video4 from '../assets/images/Video4.png'
 import { IoMdPricetag } from 'react-icons/io';
 import { IoLocationSharp } from 'react-icons/io5';
 import { LuCamera } from "react-icons/lu";
@@ -15,14 +16,14 @@ import { BiLogoGmail } from "react-icons/bi";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
-const Portofolio = () => {
+const Profilephoto = () => {
   return (
     
 
       <>
       <div className='box-sizing rounded-xl mx-auto h-[1000px] w-[950px] mt-24 mb-10 bg-[#fff] drop-shadow-md'>
         <div className='relative flex justify-items-stretch ml-[20px] mr-[37px] mt-2 '>
-        <Link to="">
+        <Link to="/layanan2">
             <img src={Images} alt="Wedding Photography" className="box-content  h-[250px] w-[250px] mx-[20px] mt-6" />
           </Link>
           <p className='text-center text-[30px] mt-6 font-bold'>Andre Firmansyah</p>
@@ -50,7 +51,7 @@ const Portofolio = () => {
             <p><LuCamera className='inline-block me-5' />Photografer, Videografer</p>
             <div className='w-full mx-16 flex justify-center'>
         
-        <Link to='../layanan3'>
+        <Link to='#'>
         <button type='button' className='text-[#F3EEEA] bg-[#EC0000] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non mt-5 ml-[-170px]' >
         Hubungi
         </button>
@@ -75,20 +76,20 @@ const Portofolio = () => {
 
       <div  className='flex justify-items-stretch ml-[20px] mr-[37px]  '>
   
-        <Link to="" >
-            <img src={Food} alt="Food Photography" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px]" />
+        <Link to="/layananporto" >
+            <img src={Photo1} alt="" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px]" />
           </Link>
 
           <Link to="">
-            <img src={Event} alt="Event Photography" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px]" />
+            <img src={Photo2} alt="" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px]" />
           </Link>
 
           <Link to="">
-            <img src={Product} alt="Product Photography" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px] " />
+            <img src={Photo3} alt="" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px] " />
           </Link>
 
           <Link to="">
-            <img src={Newborn} alt="Newborn Photography" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px]" />
+            <img src={Photo4} alt="" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px]" />
           </Link>
 
       </div>
@@ -105,19 +106,19 @@ const Portofolio = () => {
       <div  className='flex justify-items-stretch ml-[20px] mr-[37px]  '>
   
         <Link to="" >
-            <img src={Food} alt="Food Photography" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px]" />
+            <img src={Video1} alt="" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px]" />
           </Link>
 
           <Link to="">
-            <img src={Event} alt="Event Photography" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px]" />
+            <img src={Video2} alt="" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px]" />
           </Link>
 
           <Link to="">
-            <img src={Product} alt="Product Photography" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px] " />
+            <img src={Video3} alt="" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px] " />
           </Link>
 
           <Link to="">
-            <img src={Newborn} alt="Newborn Photography" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px]" />
+            <img src={Video4} alt="" className="box-content rounded-2xl h-[200px] w-[200px] mx-[20px]" />
           </Link>
 
       </div>
@@ -126,4 +127,4 @@ const Portofolio = () => {
   );
 };
 
-export default Portofolio;
+export default Profilephoto;

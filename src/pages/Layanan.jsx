@@ -3,7 +3,8 @@ import Layout from './Layout'
 import Search from '../component/SearchBox';
 import Dropdown from '../component/Dropdown';
 import Card from '../component/Card';
-import Profilephoto from '../component/Profilephoto';
+
+
 
 
 
@@ -21,7 +22,8 @@ const Layanan = () => {
   <br />
   <Card/>
   <br />
-  <Profilephoto/>
+
+
   </Layout>
 
   );

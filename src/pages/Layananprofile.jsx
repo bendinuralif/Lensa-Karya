@@ -1,7 +1,9 @@
 import React from 'react'
 import Layout from './Layout'
+import Profilephoto from '../component/Profilephoto';
 
-const Layanan2 = () => {
+
+const Layananprofile = () => {
   return (
   <Layout>
 <Profilephoto/>
@@ -10,4 +12,4 @@ const Layanan2 = () => {
   );
 };
 
-export default Layanan2;
+export default Layananprofile;
