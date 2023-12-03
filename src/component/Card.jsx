@@ -38,7 +38,7 @@ const Photographer = () => (
           </div>
           <div className='w-full mx-16 flex justify-center'>
         
-            <Link to='../layanan2'>
+            <Link to='/layanan3'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
             Detail
             </button>
