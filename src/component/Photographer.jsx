@@ -6,6 +6,9 @@ import Images4 from '../assets/images/andre4.png';
 import { IoLocationSharp } from 'react-icons/io5';
 import { IoMdPricetag } from 'react-icons/io';
 import { FaAngleDoubleRight } from 'react-icons/fa';
+import { LuCamera } from "react-icons/lu";
+import { LuVideo } from "react-icons/lu";
+
 
 const Photographer = () => (
   <>
@@ -34,6 +37,10 @@ const Photographer = () => (
               <IoLocationSharp className='inline-block me-5' />
               Medan
             </p>
+            <div className='flex justify-center items-center gap-x-4'>
+            <LuCamera />
+            <LuVideo />
+            </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
@@ -56,6 +63,10 @@ const Photographer = () => (
               <IoLocationSharp className='inline-block me-5' />
               Medan
             </p>
+            <div className='flex justify-center items-center gap-x-4'>
+            <LuCamera />
+            <LuVideo />
+            </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
@@ -78,6 +89,10 @@ const Photographer = () => (
               <IoLocationSharp className='inline-block me-5' />
               Medan
             </p>
+            <div className='flex justify-center items-center gap-x-4'>
+            <LuCamera />
+            <LuVideo />
+            </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
@@ -100,6 +115,10 @@ const Photographer = () => (
               <IoLocationSharp className='inline-block me-5' />
               Medan
             </p>
+            <div className='flex justify-center items-center gap-x-4'>
+            <LuCamera />
+            <LuVideo />
+            </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>

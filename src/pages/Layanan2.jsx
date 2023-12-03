@@ -7,21 +7,13 @@ import Card from '../component/Card';
 
 
 
-const Layanan = () => {
+const Layanan2 = () => {
   return (
   <Layout>
-    <br />
-    <br />
-    <br />
-    <br />
-  <Search/>
-  <br />
-  <Dropdown/>
-  <br />
-  <Card/>
+ 
   </Layout>
 
   );
 };
 
-export default Layanan;
+export default Layanan2;
