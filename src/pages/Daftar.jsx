@@ -1,13 +1,13 @@
 import React from 'react'
-import Layout from './Layout'
 import '../assets/css/login.css'
+import Layoutlogin from './Layoutlogin'
 
 const Daftar = () => {
   return (
-    <Layout>
+    <Layoutlogin>
         <div className="page">
       <div className="cover">
-            <h3>LUPA SANDI</h3>
+            <h3>DAFTAR</h3>
             <input type="text" placeholder="Nama Pengguna" />
             <input type="text" placeholder="Email" />
             <input type="text" placeholder="Kata Sandi" />
@@ -18,7 +18,7 @@ const Daftar = () => {
 
         </div>
         </div>
-    </Layout>
+    </Layoutlogin>
   )
 }
 

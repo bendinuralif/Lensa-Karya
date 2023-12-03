@@ -1,10 +1,11 @@
 import React from 'react'
 import Layout from './Layout'
 import '../assets/css/login.css'
+import Layoutlogin from './Layoutlogin'
 
 const Lupasandi = () => {
   return (
-    <Layout>
+    <Layoutlogin>
         <div className="page">
       <div className="cover">
             <h3>LUPA SANDI</h3>
@@ -14,7 +15,7 @@ const Lupasandi = () => {
 
         </div>
         </div>
-    </Layout>
+    </Layoutlogin>
   )
 }
 
