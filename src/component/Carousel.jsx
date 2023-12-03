@@ -2,16 +2,17 @@ import { Carousel } from 'flowbite-react';
 import Images from '../assets/images/carousel1.png';
 import Images2 from '../assets/images/carousel2.png';
 import Logo from '../assets/images/lenka.png';
+import { Link } from 'react-router-dom';
 
 const CarouselItem = () => {
   return (
     <>
-      <div className='absolute top-0 translate-x-1/2 left-0 h-fit w-1/2 mx-auto z-20 mt-28 flex justify-center flex-col items-center gap-6 pt-5'>
-        <div className='flex items-baseline mt-20'>
+      <div className='absolute top-0 translate-x-1/2 left-0 h-fit w-1/2 mx-auto z-20 flex justify-center flex-col items-center gap-6 mt-48'>
+        <div className='flex items-baseline'>
           <h2 className='text-3xl font-bold text-center text-red-600'>LensaKarya</h2>
           <img src={Logo} alt='LenKa Logo' className='h-12 text-red-600' />
         </div>
-        <p className='text-center text-lg mt-5 mb-10'>
+        <p className='text-center text-lg'>
           Abadikan Moment Berhargamu, <br />
           Untuk Kenangan Indah Kan di Ingat.
         </p>
