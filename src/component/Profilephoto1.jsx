@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import React,{useState} from "react";
+import "../assets/css/profile.css";
 import Images from '../assets/images/andre2.png';
 import Photo1 from '../assets/images/Photo1.png';
 import Photo2 from '../assets/images/Photo2.png'
@@ -11,10 +13,11 @@ import Video4 from '../assets/images/Video4.png'
 import { IoMdPricetag } from 'react-icons/io';
 import { IoLocationSharp } from 'react-icons/io5';
 import { LuCamera } from "react-icons/lu";
-import { FaAngleDoubleRight } from 'react-icons/fa';
+import { FaAngleDoubleRight, FaImages } from 'react-icons/fa';
 import { BiLogoGmail } from "react-icons/bi";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { Button, Checkbox, Label, Modal, TextInput } from 'flowbite-react';
 
 const Profilephoto1 = () => {
   return (
@@ -79,18 +82,22 @@ const Profilephoto1 = () => {
   
         <Link to="" >
             <img src={Photo1} alt="" className="box-content rounded-lg h-[200px] w-[200px] mx-[20px]" />
+            <ModalEditProfile/>
           </Link>
 
           <Link to="">
             <img src={Photo2} alt="" className="box-content rounded-lg h-[200px] w-[200px] mx-[20px]" />
+            <ModalEditProfile/>
           </Link>
 
           <Link to="">
             <img src={Photo3} alt="" className="box-content rounded-lg h-[200px] w-[200px] mx-[20px] " />
+            <ModalEditProfile/>
           </Link>
 
           <Link to="">
             <img src={Photo4} alt="" className="box-content rounded-lg h-[200px] w-[200px] mx-[20px]" />
+            <ModalEditProfile/>
           </Link>
 
       </div>
@@ -108,18 +115,22 @@ const Profilephoto1 = () => {
   
         <Link to="/layananporto2" >
             <img src={Video1} alt="" className="box-content rounded-lg h-[200px] w-[200px] mx-[20px]" />
+            <ModalEditProfile/>
           </Link>
 
           <Link to="">
             <img src={Video2} alt="" className="box-content rounded-lg h-[200px] w-[200px] mx-[20px]" />
+            <ModalEditProfile/>
           </Link>
 
           <Link to="">
             <img src={Video3} alt="" className="box-content rounded-lg h-[200px] w-[200px] mx-[20px] " />
+            <ModalEditProfile/>
           </Link>
 
           <Link to="">
             <img src={Video4} alt="" className="box-content rounded-lg h-[200px] w-[200px] mx-[20px]" />
+            <ModalEditProfile/>
           </Link>
 
       </div>
@@ -127,5 +138,46 @@ const Profilephoto1 = () => {
         </>
   );
 };
+const ModalEditProfile = () =>{
+    const [openModal, setOpenModal] = useState(false);
+    const [email, setEmail] = useState('');
+  
+    function onCloseModal() {
+      setOpenModal(false);
+      setEmail('');
+    }
+    return(
+      <div>
+        {/* <Button onClick={() => setOpenModal(true)} className="text-black border-white mr-auto ml-auto">Edit Data</Button> */}
+        <div onClick={() => setOpenModal(true)} className="rounded-lg  text-white text-center w-[100px] hover:cursor-pointer mt-[10px] ml-[64px] mr-[3px] bg-[#EC0000] ">Details</div>
+        <Modal show={openModal} size="md" onClose={onCloseModal} popup className="bg-transparent backdrop-blur-sm absolute pt-36">
+          <Modal.Header />
+          <Modal.Body className=" w-[1200px] h-[500px]">
+            <div >
+         
+              <div className="flex ">
+              <img src={Photo1} alt="" className="w-[300] rounded-lg" />
+                
+              <div className="potoprofil ml-[20px]"></div>
+              <div className="mt-[165px] ml-[-150px] text-center">
+                <p className=" font-bold">Syamsul ma'arif</p>
+                <p className="italic text-[#EC0000]">Rp 180.000/jam</p>
+                <p>Medan</p>
+                <p>Fotografer, Videografer</p>
+              </div>
+
+
+
+              <div className="ml-[-133px] mt-[300px]">
+  
+              <button type="button" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Hubungi</button>
+              </div> 
+              </div>
+            </div>
+          </Modal.Body>
+        </Modal>
+      </div>
+    );
+  } ;
 
 export default Profilephoto1;
