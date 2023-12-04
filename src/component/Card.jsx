@@ -102,9 +102,11 @@ const Photographer = () => (
             </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile2'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+            </Link>
           </div>
         </div>
         <div
@@ -128,9 +130,11 @@ const Photographer = () => (
             </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile3'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+            </Link>
           </div>
         </div>
         {/* <div className='w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8'>

@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom';
-import Wedding from '../assets/images/portofolio/wedding.png'
-import Event from '../assets/images/portofolio/event.png'
-import PreWedding from '../assets/images/portofolio/pre-wed.png'
-import Potrait from '../assets/images/portofolio/potrait.png'
-import Family from '../assets/images/portofolio/family.png'
-import Food from '../assets/images/portofolio/food.png'
-import Product from '../assets/images/portofolio/product.png'
-import Newborn from '../assets/images/portofolio/newborn.png'
+import Wedding from '../assets/images/thumwedding/th1.png'
+import Event from '../assets/images/thumwedding/th2.png'
+import PreWedding from '../assets/images/thumwedding/th3.png'
+import Potrait from '../assets/images/thumwedding/th4.png'
+import Family from '../assets/images/thumwedding/th5.png'
+import Food from '../assets/images/thumwedding/th6.png'
+import Product from '../assets/images/thumwedding/th7.png'
+import Newborn from '../assets/images/thumwedding/th8.png'
 
 
 
 
-const PPdetails2 = () => {
+const PPdetails = () => {
 
   return (
     
@@ -61,4 +61,4 @@ const PPdetails2 = () => {
   );
 };
 
-export default PPdetails2;
+export default PPdetails;

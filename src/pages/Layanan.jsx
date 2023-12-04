@@ -4,10 +4,10 @@ import Search from '../component/SearchBox';
 import Dropdown from '../component/Dropdown';
 import Card from '../component/Card';
 
-
 const Layanan = () => {
   return (
   <Layout>
+    
     <br />
     <br />
     <br />
@@ -17,11 +17,7 @@ const Layanan = () => {
   <Dropdown/>
   <br />
   <Card/>
-  <br />
-
-
   </Layout>
-
   );
 };
 

@@ -4,10 +4,10 @@ import Photo1 from '../assets/images/Photo1.png';
 import Photo2 from '../assets/images/Photo2.png'
 import Photo3 from '../assets/images/Photo3.png'
 import Photo4 from '../assets/images/Photo4.png'
-import Video1 from '../assets/images/Video1.png'
-import Video2 from '../assets/images/Video2.png'
-import Video3 from '../assets/images/Video3.png'
-import Video4 from '../assets/images/Video4.png'
+import Video1 from '../assets/images/thumwedding/th1.png'
+import Video2 from '../assets/images/thumwedding/th2.png'
+import Video3 from '../assets/images/thumwedding/th3.png'
+import Video4 from '../assets/images/thumwedding/th4.png'
 import { IoMdPricetag } from 'react-icons/io';
 import { IoLocationSharp } from 'react-icons/io5';
 import { LuCamera } from "react-icons/lu";

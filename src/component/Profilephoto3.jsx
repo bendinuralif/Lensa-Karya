@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Images from '../assets/images/andre2.png';
+import Images from '../assets/images/andre4.png';
 import Photo1 from '../assets/images/Photo1.png';
 import Photo2 from '../assets/images/Photo2.png'
 import Photo3 from '../assets/images/Photo3.png'
@@ -16,7 +16,7 @@ import { BiLogoGmail } from "react-icons/bi";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
-const Profilephoto1 = () => {
+const Profilephoto3 = () => {
   return (
     
 
@@ -26,24 +26,24 @@ const Profilephoto1 = () => {
 
             <img src={Images} alt="Wedding Photography" className="box-content  h-[250px] w-[200px] mx-[20px] mt-6" />
             <div>
-          <p className='text-center text-[30px] mt-6 font-bold'>Syamsul Ma'arif </p>
+          <p className='text-center text-[30px] mt-6 font-bold'>Bagus Rahmat</p>
           </div>
-          <div className='mt-[75px] ml-[55px]'>
+          <div className='mt-[75px] ml-[80px]'>
           <p className='italic font-light '>
               <BiLogoGmail className='inline-block me-5' />
-              syamsulmaarif@gmail.com
+              bagusrahmat@gmail.com
             </p>
             <p>
               <FaWhatsapp className='inline-block me-5' />
-              +62 895-3130-7070
+              +62 857-3450-8909
             </p>
             <p><FaInstagram className='inline-block me-5' />
-            @syamsulmaarif</p>
+            @bagusrahmat</p>
           </div>
           <div className='mt-[75px] ml-[-510px]'>
           <p className='italic font-light'>
               <IoMdPricetag className='inline-block me-5' />
-              Rp. 180.000/jam
+              Rp. 190.000/jam
             </p>
             <p>
               <IoLocationSharp className='inline-block me-5' />
@@ -128,4 +128,4 @@ const Profilephoto1 = () => {
   );
 };
 
-export default Profilephoto1;
+export default Profilephoto3;

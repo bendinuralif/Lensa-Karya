@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
-import Wedding from '../assets/images/portofolio/wedding.png'
-import Event from '../assets/images/portofolio/event.png'
-import PreWedding from '../assets/images/portofolio/pre-wed.png'
-import Potrait from '../assets/images/portofolio/potrait.png'
-import Family from '../assets/images/portofolio/family.png'
-import Food from '../assets/images/portofolio/food.png'
-import Product from '../assets/images/portofolio/product.png'
-import Newborn from '../assets/images/portofolio/newborn.png'
+import Wedding from '../assets/images/thumwedding/f1.png'
+import Event from '../assets/images/thumwedding/f2.png'
+import PreWedding from '../assets/images/thumwedding/f3.png'
+import Potrait from '../assets/images/thumwedding/f4.png'
+import Family from '../assets/images/thumwedding/f5.png'
+import Food from '../assets/images/thumwedding/f6.png'
+import Product from '../assets/images/thumwedding/f7.png'
+import Newborn from '../assets/images/thumwedding/f8.png'
 
 
 

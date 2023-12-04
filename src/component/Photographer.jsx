@@ -35,7 +35,7 @@ const Photographer = () => (
             <p className='text-center text-xl font-bold'>Andre Firmansyah</p>
             <p className='italic font-light'>
               <IoMdPricetag className='inline-block me-5' />
-              Rp. 220.000/jam
+              Rp. 250.000/jam
             </p>
             <p>
               <IoLocationSharp className='inline-block me-5' />
@@ -47,9 +47,11 @@ const Photographer = () => (
             </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+            </Link>
           </div>
         </div>
         <div
@@ -62,10 +64,10 @@ const Photographer = () => (
         >
           <div className='text-white w-full'>
             <img src='' alt='' />
-            <p className='text-center text-xl font-bold'>Andre Firmansyah</p>
+            <p className='text-center text-xl font-bold'>Syamsul ma'arif</p>
             <p className='italic font-light'>
               <IoMdPricetag className='inline-block me-5' />
-              Rp. 220.000/jam
+              Rp. 180.000/jam
             </p>
             <p>
               <IoLocationSharp className='inline-block me-5' />
@@ -77,9 +79,11 @@ const Photographer = () => (
             </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile1'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+            </Link>
           </div>
         </div>
         <div
@@ -92,10 +96,10 @@ const Photographer = () => (
         >
           <div className='text-white w-full'>
             <img src='' alt='' />
-            <p className='text-center text-xl font-bold'>Andre Firmansyah</p>
+            <p className='text-center text-xl font-bold'>Abie Arief Setiawan</p>
             <p className='italic font-light'>
               <IoMdPricetag className='inline-block me-5' />
-              Rp. 220.000/jam
+              Rp. 190.000/jam
             </p>
             <p>
               <IoLocationSharp className='inline-block me-5' />
@@ -106,10 +110,13 @@ const Photographer = () => (
               <LuVideo />
             </div>
           </div>
+          
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile2'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+            </Link>
           </div>
         </div>
         <div
@@ -122,7 +129,7 @@ const Photographer = () => (
         >
           <div className='text-white w-full'>
             <img src='' alt='' />
-            <p className='text-center text-xl font-bold'>Andre Firmansyah</p>
+            <p className='text-center text-xl font-bold'>Bagus Rahmat</p>
             <p className='italic font-light'>
               <IoMdPricetag className='inline-block me-5' />
               Rp. 220.000/jam
@@ -137,9 +144,11 @@ const Photographer = () => (
             </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile3'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+            </Link>
           </div>
         </div>
         {/* <div className='w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8'>
