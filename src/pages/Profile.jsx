@@ -1,6 +1,7 @@
-import React from "react";
+import React,{useState} from "react";
 import "../assets/css/profile.css";
 import { Link } from "react-router-dom";
+import { Button, Checkbox, Label, Modal, TextInput } from 'flowbite-react';
 import Layoutlogin from "./Layoutlogin";
 import photo1 from "../assets/images/thumwedding/f1.png";
 import photo2 from "../assets/images/thumwedding/f2.png";
@@ -18,17 +19,20 @@ import Thumb5 from "../assets/images/thumwedding/th5.png";
 import Thumb6 from "../assets/images/thumwedding/th6.png";
 import Thumb7 from "../assets/images/thumwedding/th7.png";
 import Thumb8 from "../assets/images/thumwedding/th8.png";
+import { IconsManifest } from "react-icons";
 
 const Profile = () => {
+  
   return (
     <Layoutlogin>
       <div class="container">
         <div class="box1">
           <h1>Profil Saya</h1>
-          <div className="potoprofil"></div>
-          <Link to="">
+          <div className="potoprofil ml-auto mr-auto"></div>
+          {/* <Link to="">
             <p>Edit Data</p>
-          </Link>
+          </Link> */}
+          <ModalEditProfile/>
           <h1>Andre Firmansyah</h1>
           <div className="data">
             <p>
@@ -210,5 +214,67 @@ const Profile = () => {
     </Layoutlogin>
   );
 };
+
+const ModalEditProfile = () =>{
+  const [openModal, setOpenModal] = useState(false);
+  const [email, setEmail] = useState('');
+
+  function onCloseModal() {
+    setOpenModal(false);
+    setEmail('');
+  }
+  return(
+    <div>
+      {/* <Button onClick={() => setOpenModal(true)} className="text-black border-white mr-auto ml-auto">Edit Data</Button> */}
+      <div onClick={() => setOpenModal(true)} className="hover:cursor-pointer">Edit Data</div>
+      <Modal show={openModal} size="md" onClose={onCloseModal} popup className="bg-transparent backdrop-blur-sm absolute pt-36">
+        <Modal.Header />
+        <Modal.Body>
+          <div className="space-y-6">
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white text-center">Edit Data Photographer</h3>
+            <div>
+            <div className="potoprofil ml-auto mr-auto scale-90"></div>
+            <div className="text-center">Ganti Foto</div>
+              <div className="mb-2 block">
+                <Label htmlFor="email" value="Your email" />
+              </div>
+              <TextInput
+                id="email"
+                placeholder="name@company.com"
+                value={email}
+                onChange={(event) => setEmail(event.target.value)}
+                required
+              />
+            </div>
+            <div>
+              <div className="mb-2 block">
+                <Label htmlFor="password" value="Your password" />
+              </div>
+              <TextInput id="password" type="password" required />
+            </div>
+            <div className="flex justify-between">
+              <div className="flex items-center gap-2">
+                <Checkbox id="remember" />
+                <Label htmlFor="remember">Remember me</Label>
+              </div>
+              <a href="#" className="text-sm text-cyan-700 hover:underline dark:text-cyan-500">
+                Lost Password?
+              </a>
+            </div>
+            <div className="w-full">
+              <Button>Log in to your account</Button>
+            </div>
+            <div className="flex justify-between text-sm font-medium text-gray-500 dark:text-gray-300">
+              Not registered?&nbsp;
+              <a href="#" className="text-cyan-700 hover:underline dark:text-cyan-500">
+                Create account
+              </a>
+            </div>
+          </div>
+        </Modal.Body>
+      </Modal>
+    </div>
+  )
+} 
 
 export default Profile;
