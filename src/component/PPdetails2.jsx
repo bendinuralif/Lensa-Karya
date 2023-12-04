@@ -11,7 +11,7 @@ import Newborn from '../assets/images/portofolio/newborn.png'
 
 
 
-const PPdetails = () => {
+const PPdetails2 = () => {
 
   return (
     
@@ -61,4 +61,4 @@ const PPdetails = () => {
   );
 };
 
-export default PPdetails;
+export default PPdetails2;

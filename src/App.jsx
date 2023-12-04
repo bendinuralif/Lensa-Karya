@@ -17,6 +17,8 @@ import Profile from './pages/Profile';
 import Portowedd from './pages/Portowedd';
 import Layananprofile from './pages/Layananprofile';
 import Layananporto from './pages/Layananporto';
+import Layananporto2 from './pages/Layananporto2';
+import Layananprofile1 from './pages/Layananprofile1';
 
 
 
@@ -39,6 +41,8 @@ function App() {
         <Route path='/portowedd' element={<Portowedd/>}/>
         <Route path='/layananprofile' element={<Layananprofile/>}/>
         <Route path='/layananporto' element={<Layananporto/>}/>
+        <Route path='/layananporto2' element={<Layananporto2/>}/>
+        <Route path='/layananprofile1' element={<Layananprofile1/>}/>
 
       </Routes>
     </BrowserRouter>

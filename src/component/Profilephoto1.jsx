@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Images from '../assets/images/andre.png';
+import Images from '../assets/images/andre2.png';
 import Photo1 from '../assets/images/Photo1.png';
 import Photo2 from '../assets/images/Photo2.png'
 import Photo3 from '../assets/images/Photo3.png'
@@ -16,18 +16,19 @@ import { BiLogoGmail } from "react-icons/bi";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
-const Profilephoto = () => {
+const Profilephoto1 = () => {
   return (
     
 
       <>
       <div className='box-sizing rounded-xl mx-auto h-[1000px] w-[950px] mt-24 mb-10 bg-[#fff] drop-shadow-md'>
         <div className='relative flex justify-items-stretch ml-[20px] mr-[37px] mt-2 '>
-        <Link to="/layanan2">
+
             <img src={Images} alt="Wedding Photography" className="box-content  h-[250px] w-[200px] mx-[20px] mt-6" />
-          </Link>
-          <p className='text-center text-[30px] mt-6 font-bold'>Andre Firmansyah</p>
-          <div className='mt-[75px]'>
+            <div>
+          <p className='text-center text-[30px] mt-6 font-bold'>Syamsul Ma'arif </p>
+          </div>
+          <div className='mt-[75px] ml-[40px]'>
           <p className='italic font-light '>
               <BiLogoGmail className='inline-block me-5' />
               andrefirmansyah@gmail.com
@@ -127,4 +128,4 @@ const Profilephoto = () => {
   );
 };
 
-export default Profilephoto;
+export default Profilephoto1;

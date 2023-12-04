@@ -5,10 +5,6 @@ import Dropdown from '../component/Dropdown';
 import Card from '../component/Card';
 
 
-
-
-
-
 const Layanan = () => {
   return (
   <Layout>

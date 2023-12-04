@@ -3,7 +3,7 @@ import Layout from './Layout'
 import PPdetails from '../component/PPdetails';
 
 
-const Layananprofile = () => {
+const Layananporto = () => {
   return (
   <Layout>
  <PPdetails/>
@@ -12,4 +12,4 @@ const Layananprofile = () => {
   );
 };
 
-export default Layananprofile;
+export default Layananporto;
