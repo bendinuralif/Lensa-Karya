@@ -234,41 +234,28 @@ const ModalEditProfile = () =>{
             <h3 className="text-xl font-bold text-gray-900 dark:text-white text-center">Edit Data Photographer</h3>
             <div>
             <div className="potoprofil ml-auto mr-auto scale-90"></div>
-            <div className="text-center">Ganti Foto</div>
-              <div className="mb-2 block">
-                <Label htmlFor="email" value="Your email" />
-              </div>
-              <TextInput
-                id="email"
-                placeholder="name@company.com"
-                value={email}
-                onChange={(event) => setEmail(event.target.value)}
-                required
-              />
-            </div>
+            <div className="text-center font-light text-base leading-normal">Ganti Foto</div>
+            <div className=" font-bold text-base leading-normal">Data Diri</div>
+            <div class="mb-6 flex items-center gap-10 w-full">
+                <label for="large-input" class="block text-sm font-medium text-gray-900 dark:text-white w-1/4">Nama</label>
+                <input type="text" id="large-input" class="block p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 w-3/4"/>
+            </div> 
+            <div class="mb-6 flex items-center gap-10 w-full">
+                <label for="large-input" class="block text-sm font-medium text-gray-900 dark:text-white w-1/4">Domisili</label>
+                <input type="text" id="large-input" class="block p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 w-3/4"/>
+            </div>   
+            <div class="mb-6 flex items-center gap-10 w-full">
+                <label for="large-input" class="block text-sm font-medium text-gray-900 dark:text-white w-1/4">No Telp</label>
+                <input type="text" id="large-input" class="block p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 w-3/4"/>
+            </div> 
+            <div class="mb-6 flex items-center gap-10 w-full">
+                <label for="large-input" class="block text-sm font-medium text-gray-900 dark:text-white w-1/4">Harga</label>
+                <input type="text" id="large-input" class="block p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 w-3/4"/>
+            </div> 
             <div>
-              <div className="mb-2 block">
-                <Label htmlFor="password" value="Your password" />
-              </div>
-              <TextInput id="password" type="password" required />
-            </div>
-            <div className="flex justify-between">
-              <div className="flex items-center gap-2">
-                <Checkbox id="remember" />
-                <Label htmlFor="remember">Remember me</Label>
-              </div>
-              <a href="#" className="text-sm text-cyan-700 hover:underline dark:text-cyan-500">
-                Lost Password?
-              </a>
-            </div>
-            <div className="w-full">
-              <Button>Log in to your account</Button>
-            </div>
-            <div className="flex justify-between text-sm font-medium text-gray-500 dark:text-gray-300">
-              Not registered?&nbsp;
-              <a href="#" className="text-cyan-700 hover:underline dark:text-cyan-500">
-                Create account
-              </a>
+            <button type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Batal</button> 
+            <button type="button" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Simpan</button>
+            </div> 
             </div>
           </div>
         </Modal.Body>
