@@ -15,6 +15,15 @@ import Navbarlogin from './component/Navbarlogin';
 import Layoutlogin from './pages/Layoutlogin';
 import Profile from './pages/Profile';
 import Portowedd from './pages/Portowedd';
+import Layananprofile from './pages/Layananprofile';
+import Layananporto from './pages/Layananporto';
+import Layananporto2 from './pages/Layananporto2';
+import Layananprofile1 from './pages/Layananprofile1';
+import Layananprofile2 from './pages/Layananprofile2';
+import Layananprofile3 from './pages/Layananprofile3';
+
+
+
 
 
 function App() {
@@ -34,6 +43,14 @@ function App() {
         <Route path='/layoutlogin' element={<Layoutlogin />} />
         <Route path='/profile' element={<Profile />} />
         <Route path='/portowedd' element={<Portowedd/>}/>
+        <Route path='/layananprofile' element={<Layananprofile/>}/>
+        <Route path='/layananporto' element={<Layananporto/>}/>
+        <Route path='/layananporto2' element={<Layananporto2/>}/>
+        <Route path='/layananprofile1' element={<Layananprofile1/>}/>
+        <Route path='/layananprofile2' element={<Layananprofile2/>}/>
+        <Route path='/layananprofile3' element={<Layananprofile3/>}/>
+        
+        
 
       </Routes>
     </BrowserRouter>
