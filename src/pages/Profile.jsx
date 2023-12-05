@@ -261,7 +261,7 @@ const ModalEditProfile = () =>{
         </Modal.Body>
       </Modal>
     </div>
-  )
-} 
+  );
+}; 
 
 export default Profile;
