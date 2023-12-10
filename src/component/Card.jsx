@@ -11,6 +11,7 @@ import Images9 from '../assets/images/andre9.png';
 import Images10 from '../assets/images/andre10.png';
 import Images11 from '../assets/images/andre11.png';
 import Images12 from '../assets/images/andre12.png';
+
 import { IoLocationSharp } from 'react-icons/io5';
 import { IoMdPricetag } from 'react-icons/io';
 import { FaAngleDoubleRight } from 'react-icons/fa';
@@ -187,9 +188,11 @@ const Photographer = () => (
             </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile4'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+         </Link>
           </div>
         </div>
         <div
@@ -213,9 +216,11 @@ const Photographer = () => (
             </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile5'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+            </Link>
           </div>
         </div>
         <div
@@ -239,9 +244,11 @@ const Photographer = () => (
             </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile6'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+            </Link>
           </div>
         </div>
         <div
@@ -265,9 +272,11 @@ const Photographer = () => (
             </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile7'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+            </Link>
           </div>
         </div>
         {/* <div className='w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8'>
@@ -320,9 +329,11 @@ const Photographer = () => (
             </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile8'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+            </Link>
           </div>
         </div>
         <div
@@ -346,9 +357,11 @@ const Photographer = () => (
             </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile9'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+            </Link>
           </div>
         </div>
         <div
@@ -372,9 +385,11 @@ const Photographer = () => (
             </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile10'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+            </Link>
           </div>
         </div>
         <div
@@ -398,9 +413,11 @@ const Photographer = () => (
             </div>
           </div>
           <div className='w-full mx-16 flex justify-center'>
+          <Link to='/layananprofile11'>
             <button type='button' className='text-[#EC0000] bg-[#F3EEEA] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non'>
               Detail
             </button>
+            </Link>
           </div>
         </div>
         {/* <div className='w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8'>

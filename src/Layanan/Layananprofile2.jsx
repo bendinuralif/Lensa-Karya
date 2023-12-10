@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from './Layout'
-import Profilephoto2 from '../component/Profilephoto2';
+import Layout from '../pages/Layout'
+import Profilephoto2 from '../LayananDetails/Profilephoto2';
 
 
 const Layananprofile2 = () => {
