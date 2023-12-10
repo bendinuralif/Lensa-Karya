@@ -19,7 +19,7 @@ import Thumb5 from "../assets/images/thumwedding/th5.png";
 import Thumb6 from "../assets/images/thumwedding/th6.png";
 import Thumb7 from "../assets/images/thumwedding/th7.png";
 import Thumb8 from "../assets/images/thumwedding/th8.png";
-
+import { IconsManifest } from "react-icons";
 
 const Profile = () => {
   
