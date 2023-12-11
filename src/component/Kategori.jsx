@@ -17,12 +17,12 @@ const Kategori = () => {
             Selengkapnya <FaAngleDoubleRight className='inline-block' />
           </Link>
         </div>
-        <div className='flex flex-row gap-4 justify-center items-center'>
-          <img src={Images} alt='' />
-          <img src={Images2} alt='' />
-          <img src={Images3} alt='' />
-          <img src={Images4} alt='' />
-          <img src={Images5} alt='' />
+        <div className='flex flex-row gap-4 justify-center items-center '>
+          <img className='hover:cursor-pointer' src={Images} alt='' />
+          <img className='hover:cursor-pointer' src={Images2} alt='' />
+          <img className='hover:cursor-pointer' src={Images3} alt='' />
+          <img className='hover:cursor-pointer' src={Images4} alt='' />
+          <img className='hover:cursor-pointer' src={Images5} alt='' />
         </div>
       </div>
     </>
