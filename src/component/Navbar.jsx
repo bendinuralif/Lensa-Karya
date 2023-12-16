@@ -35,7 +35,7 @@ const Navbar = () => {
 
         <div className={`md:flex md:w-auto ${isMenuOpen ? 'block' : 'hidden'}`} id='navbar-mobile'>
           <div className='flex flex-col md:flex-row md:space-x-8'>
-            <Link to='/' className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0 font-bold`}>
+            <Link to='/' className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0 `}>
               Beranda
             </Link>
             <Link to='/aboutus' className={`block py-2 px-3] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
