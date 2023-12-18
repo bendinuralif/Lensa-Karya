@@ -1,8 +1,8 @@
 import React from 'react'
-import '../assets/css/login.css'
-import Layoutlogin from './Layoutlogin'
+import '../../assets/css/login.css'
+import Layoutlogin from '../Layoutlogin'
 
-const Daftar = () => {
+const Signup = () => {
   return (
     <Layoutlogin>
         <div className="page">
@@ -22,4 +22,4 @@ const Daftar = () => {
   )
 }
 
-export default Daftar
+export default Signup

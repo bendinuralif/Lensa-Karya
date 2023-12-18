@@ -1,8 +1,8 @@
 import React from 'react'
-import '../assets/css/login.css'
-import Layoutlogin from './Layoutlogin'
+import '../../assets/css/login.css'
+import Layoutlogin from '../Layoutlogin'
 
-const Login = () => {
+const Signin = () => {
   return (
     <Layoutlogin>
         <div className="page">
@@ -26,4 +26,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Signin
