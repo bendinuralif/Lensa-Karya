@@ -10,6 +10,7 @@ import Video1 from '../assets/images/thumwedding/th1.png'
 import Video2 from '../assets/images/thumwedding/th2.png'
 import Video3 from '../assets/images/thumwedding/th3.png'
 import Video4 from '../assets/images/thumwedding/th4.png'
+import Video5 from '../assets/Video/wedd1.mp4'
 import { IoMdPricetag } from 'react-icons/io';
 import { IoLocationSharp } from 'react-icons/io5';
 import { LuCamera } from "react-icons/lu";
@@ -40,7 +41,7 @@ const Profilephoto = () => {
             </p>
             <p>
               <FaWhatsapp className='inline-block me-5' />
-              +62 858-3130-7378
+              +62 857--8863-7095
             </p>
             <p><FaInstagram className='inline-block me-5' />
             @andrefirmansyah</p>
@@ -57,7 +58,7 @@ const Profilephoto = () => {
             <p><LuCamera className='inline-block me-5' />Photografer, Videografer</p>
             <div className='w-full mx-16 flex justify-center'>
         
-        <Link to='#'>
+        <Link to='https://wa.me/085788637095'>
         <button type='button' className='text-[#F3EEEA] bg-[#EC0000] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non mt-5 ml-[-170px]' >
         Hubungi
         </button>
@@ -330,11 +331,11 @@ const ModalEditProfile = () =>{
         <div onClick={() => setOpenModal(true)} className="rounded-lg  text-white text-center w-[100px] hover:cursor-pointer mt-[10px] ml-[64px] mr-[3px] bg-[#EC0000] ">Details</div>
         <Modal show={openModal} onClose={onCloseModal} popup className="bg-transparent backdrop-blur-sm absolute pt-[100px]">
           <Modal.Header />
-          <Modal.Body className=" w-[1200px] h-[500px]">
+          <Modal.Body className=" w-[1500px] h-[500px]">
             <div >
          
               <div className="flex ">
-              <img src={Video1} alt="" className="w-[400px] rounded-lg" />
+              <video src={Video5} type='video/mp4' controls autoPlay loop className="w-[400px]  rounded-lg" />
                 
               <div className="potoprofil ml-[35px]"></div>
               <div className="mt-[165px] ml-[-160px] text-center">
