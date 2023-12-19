@@ -51,7 +51,7 @@ const Profilephoto3 = () => {
               Medan
             </p>
             <p><LuCamera className='inline-block me-5' />Photografer, Videografer</p>
-            <div className='w-full mx-16 flex justify-center'>
+            <div className='flex'>
         
             <ModalHubungi/>
     

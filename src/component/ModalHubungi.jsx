@@ -14,7 +14,7 @@ const ModalHubungi = () => {
   }
   return (
     <div>
-  <div onClick={() => setOpenModal(true)} className="hover:cursor-pointer text-white bg-[#EC0000] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non mt-5">
+  <div onClick={() => setOpenModal(true)} className=" hover:cursor-pointer text-white bg-[#EC0000] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non mt-5">
     Hubungi
   </div>
   <Modal
@@ -29,9 +29,9 @@ const ModalHubungi = () => {
       <div className="space-y-6">
         <div className="flex justify-between items-center">
        
-          <img src={whatsappLogo} alt="Facebook Logo" className="mx-4 cursor-pointer" onClick={() => window.open('https://wa.me/6285835403479')} />
-          <img src={instagramLogo} alt="Twitter Logo" className="mx-4 cursor-pointer" onClick={() => window.open('https://www.instagram.com/')} />
-          <img src={gmailLogo} alt="Instagram Logo" className="mx-4 cursor-pointer" onClick={() => window.open('https://www.gmail.com/')} />
+          <img src={whatsappLogo} alt="Facebook Logo" className="mx-2 cursor-pointer" onClick={() => window.open('https://wa.me/6285835403479')} />
+          <img src={instagramLogo} alt="Twitter Logo" className="mx-2 cursor-pointer" onClick={() => window.open('https://www.instagram.com/')} />
+          <img src={gmailLogo} alt="Instagram Logo" className="mx-2 cursor-pointer" onClick={() => window.open('https://www.gmail.com/')} />
         
 
         </div>
