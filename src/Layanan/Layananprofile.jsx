@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from './Layout'
-import Profilephoto from '../component/Profilephoto';
+import Layout from '../pages/Layout'
+import Profilephoto from '../LayananDetails/Profilephoto';
 
 
 

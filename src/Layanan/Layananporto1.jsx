@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from './Layout'
-import PPdetails from '../component/PPdetails';
+import Layout from '../pages/Layout'
+import PPdetails from '../LayananDetails/PPdetails';
 
 
 const Layananporto = () => {
