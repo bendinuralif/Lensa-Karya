@@ -90,6 +90,13 @@ const Photographer = () => {
       price: 250000,
       city: 'Medan',
     },
+    {
+      id: 10,
+      image: Images11,
+      name: 'Andre Firmansyah 11',
+      price: 250000,
+      city: 'Medan',
+    },
   ];
 
   return (
