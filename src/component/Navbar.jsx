@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Logo from '../assets/images/lenka.png';
 import Icon from '../assets/images/icon/login.png';
+import ToggleButton from './ToggleButton';
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const pages = useLocation().pathname;
+  console.log(pages);
 
   const handleMenuToggle = () => {
     setMenuOpen(!isMenuOpen);
@@ -35,29 +38,24 @@ const Navbar = () => {
 
         <div className={`md:flex md:w-auto ${isMenuOpen ? 'block' : 'hidden'}`} id='navbar-mobile'>
           <div className='flex flex-col md:flex-row md:space-x-8'>
-            <Link to='/' className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0 font-bold`}>
+            <Link to='/' className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0 ${pages == '/' ? 'text-red-600 font-bold' : 'text-black'} `}>
               Beranda
             </Link>
-            <Link to='/aboutus' className={`block py-2 px-3] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
+            <Link to='/aboutus' className={`block py-2 px-3] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0 ${pages == '/aboutus' ? 'text-red-600 font-bold' : 'text-black'}`}>
               Tentang Kami
             </Link>
-            <Link to='/layanan' className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
+            <Link to='/layanan' className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0 ${pages == '/layanan' ? 'text-red-600 font-bold' : 'text-black'}`}>
               Layanan
             </Link>
-            <Link to='/portofolio' className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
+            <Link to='/portofolio' className={`block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0 ${pages == '/portofolio' ? 'text-red-600 font-bold' : 'text-black'}`}>
               Portofolio
             </Link>
           </div>
         </div>
 
-        <div className='hidden md:flex items-center'>
-          <div className='button text-[#EC0000] font-medium flex items-center'>
-            <img src={Icon} alt='' className='w-[17px] mr-2' />
-            <Link to='/login' className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
-              SayaPhotographer
-            </Link>
-          </div>
-        </div>
+        
+            <ToggleButton />
+          
       </div>
     </nav>
   );

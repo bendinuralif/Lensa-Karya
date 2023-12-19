@@ -8,7 +8,6 @@ import photo5 from '../assets/images/thumwedding/f5.png'
 import photo6 from '../assets/images/thumwedding/f6.png'
 import photo7 from '../assets/images/thumwedding/f7.png'
 import photo8 from '../assets/images/thumwedding/f7.png'
-
 import Thumb1 from '../assets/images/thumwedding/th1.png'
 import Thumb2 from '../assets/images/thumwedding/th2.png'
 import Thumb3 from '../assets/images/thumwedding/th3.png'

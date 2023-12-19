@@ -9,7 +9,7 @@
 .box1 {
   flex: 0.7;
   padding: 30px 20px;
-  height: 690px;
+  height: 1000px;
   border-radius: 5px;
   margin: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
@@ -58,6 +58,18 @@
   background-repeat: no-repeat;
 }
 
+.potoprofil1 {
+  background-image: url("../images/andre2.png");
+  width: 150px;
+  height: 150px;
+  margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-size: cover; /* atau contain, etc. */
+  background-position: center; /* atau atur posisi sesuai kebutuhan */
+  background-repeat: no-repeat;
+}
 
 
 .pengaturan {
