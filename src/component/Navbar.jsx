@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Logo from '../assets/images/lenka.png';
 import Icon from '../assets/images/icon/login.png';
+import ToggleButton from './ToggleButton';
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -52,14 +53,9 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className='hidden md:flex items-center'>
-          <div className='button text-[#EC0000] font-medium flex items-center'>
-            <img src={Icon} alt='' className='w-[17px] mr-2' />
-            <Link to='/login' className={`block py-2 px-3 text-[#EC0000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC0000] md:p-0`}>
-              SayaPhotographer
-            </Link>
-          </div>
-        </div>
+        
+            <ToggleButton />
+          
       </div>
     </nav>
   );
