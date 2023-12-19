@@ -15,6 +15,7 @@ import { FaAngleDoubleRight } from 'react-icons/fa';
 import { BiLogoGmail } from "react-icons/bi";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import ModalHubungi from './ModalHubungi';
 
 const Profilephoto2 = () => {
   return (
@@ -52,11 +53,7 @@ const Profilephoto2 = () => {
             <p><LuCamera className='inline-block me-5' />Photografer, Videografer</p>
             <div className='w-full mx-16 flex justify-center'>
         
-        <Link to='#'>
-        <button type='button' className='text-[#F3EEEA] bg-[#EC0000] focus:ring-4 focus:ring-blue-300 font-semibold rounded-lg text-sm px-3 py-1 focus:outline-non mt-5 ml-[-170px]' >
-        Hubungi
-        </button>
-    </Link>
+            <ModalHubungi/>
     
       </div>
           </div>

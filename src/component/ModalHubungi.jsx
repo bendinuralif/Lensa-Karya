@@ -29,7 +29,7 @@ const ModalHubungi = () => {
       <div className="space-y-6">
         <div className="flex justify-between items-center">
        
-          <img src={whatsappLogo} alt="Facebook Logo" className="mx-4 cursor-pointer" onClick={() => window.open('https://www.whatsapp.com/')} />
+          <img src={whatsappLogo} alt="Facebook Logo" className="mx-4 cursor-pointer" onClick={() => window.open('https://wa.me/6285835403479')} />
           <img src={instagramLogo} alt="Twitter Logo" className="mx-4 cursor-pointer" onClick={() => window.open('https://www.instagram.com/')} />
           <img src={gmailLogo} alt="Instagram Logo" className="mx-4 cursor-pointer" onClick={() => window.open('https://www.gmail.com/')} />
         
