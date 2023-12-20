@@ -59,7 +59,7 @@ const Photographer = () => {
         <div className='flex flex-row justify-center w-full mx-auto gap-8'>
           {/* cetak data menggunakan template. panggil semua data utk di map ke dalam 1 variabel */}
           {dataPhotografer.map((photografer) => (
-            <div
+            <div key={photografer.id}
               className='w-62 max-w-sm h-96 p-8 bg-white border-[15px] border-gray-200 rounded-lg shadow sm:p-4 flex flex-col items-center justify-end drop-shadow-2xl bg-cover bg-center bg-no-repeat'
               style={{
                 backgroundImage: `url(${photografer.image})`,
