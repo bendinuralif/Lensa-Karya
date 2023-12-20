@@ -1,5 +1,5 @@
 // import { useState } from 'react';
-import Home from './pages/Home';
+import Home from './pages/home/Home'
 // import Button from './component/Button';
 // import Navbar from './component/Navbar';
 import Aboutus from './pages/Aboutus';
@@ -49,12 +49,9 @@ function App() {
         <Route path='/layananprofile1' element={<Layananprofile1/>}/>
         <Route path='/layananprofile2' element={<Layananprofile2/>}/>
         <Route path='/layananprofile3' element={<Layananprofile3/>}/>
-        
-        
-
       </Routes>
     </BrowserRouter>
-  );
+  ); 
 }
 
 export default App;

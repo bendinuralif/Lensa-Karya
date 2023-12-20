@@ -1,7 +1,8 @@
-import React from 'react';
+// import React from 'react';
 import Navbar from '../component/Navbar';
 import Footer from '../component/Footer';
 import { Carousel } from '@material-tailwind/react';
+import PropTypes from 'prop-types';
 
 const Layout = ({ children }) => {
   return (
@@ -11,6 +12,10 @@ const Layout = ({ children }) => {
       <Footer />
     </div>
   );
+};
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;
